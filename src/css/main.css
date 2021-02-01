@@ -83,6 +83,8 @@ div.searchBox {
   font-weight: normal;
   font-size: 18px;
   color: #ffffff;
+  cursor: pointer;
+  outline: none;
 }
 
 .searchResult .title p {
