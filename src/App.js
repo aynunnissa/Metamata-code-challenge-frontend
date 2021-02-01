@@ -1,5 +1,7 @@
 import './css/assets.css';
 import './css/App.css';
+import $ from 'jquery';
+import './js/favorite.js';
 import React from 'react';
 import Main from './components/Main';
 
