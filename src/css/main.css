@@ -106,3 +106,42 @@ div.searchBox {
   justify-content: center;
   flex-wrap: wrap;
 }
+
+@media only screen and (max-width: 992px) {
+  h1.bannerTitle {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .resepCard {
+    width: 90%;
+  }
+
+  h1.bannerTitle {
+    font-size: 50px;
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  h1.bannerTitle {
+    font-size: 40px;
+    width: 80%;
+  }
+
+  div.searchBox {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  h1.bannerTitle {
+    font-size: 35px;
+    width: 95%;
+  }
+
+  .resepCard {
+    width: 80%;
+  }
+}
