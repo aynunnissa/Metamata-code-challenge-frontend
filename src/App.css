@@ -1,38 +1,52 @@
-.App {
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*	Navbar	*/
+section.navbar,
+footer.footer {
+  width: 100%;
+}
+
+div.navbar {
+  width: 100%;
+  background-color: var(--softBlackColor);
   text-align: center;
+  padding: 18px 0px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1.navbar {
+  color: var(--greenColor);
+  font-family: var(--raleway);
+  font-weight: 600;
+  font-size: 48px;
 }
+/*	End of Navbar	*/
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/*	Main Section  */
+section.main {
+  width: 100%;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-wrap: wrap;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+/*	End of Main Section	*/
+
+/* Footer */
+.footer {
+  background-color: var(--footerBGColor);
+  height: 97px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+.footer p {
+  color: var(--softBlackColor);
+  text-align: center;
+  font-family: var(--raleway);
+  font-weight: 700px;
+  font-size: 24px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+/* End of Footer */
