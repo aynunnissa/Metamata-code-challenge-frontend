@@ -19,7 +19,7 @@ function App() {
       </section>
 
       <footer className="footer">
-        <p>Developed by Aynun Nissa</p>
+        <p>Developed by <a href="https://aynunnissa__.gitlab.io/portfolio/" target="_blank">Aynun Nissa</a></p>
       </footer>
     </React.Fragment>
   );

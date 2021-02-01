@@ -46,9 +46,16 @@ section.main {
   color: var(--softBlackColor);
   text-align: center;
   font-family: var(--raleway);
-  font-weight: 700px;
+  font-weight: 700;
   font-size: 24px;
+  font-style: normal;
 }
+
+.footer p a {
+  text-decoration: none;
+  color: inherit;
+}
+
 /* End of Footer */
 
 @media only screen and (max-width: 576px) {

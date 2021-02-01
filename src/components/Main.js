@@ -1,5 +1,6 @@
 import '../css/assets.css';
 import '../css/main.css';
+import '../js/main.js'
 import React, { Component } from 'react';
 import Card from './Card';
 
@@ -27,7 +28,7 @@ class Main extends Component {
                 <div className="search">
                     <div className="searchBox">
                         <input type="text" name="" />
-                        <button>Cari</button>	
+                        <button className="searchButton"><p>Cari</p></button>	
                     </div>
                 </div>
                 <div className="searchResult">

@@ -48,6 +48,11 @@ button.heart {
   border: none;
   cursor: pointer;
   position: absolute;
+  font-size: 18px;
+}
+
+button.heart:focus {
+  outline: none;
 }
 
 .favorit {
