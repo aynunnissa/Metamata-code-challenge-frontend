@@ -1,20 +1,22 @@
 import './assets.css';
 import './App.css';
 import React from 'react';
+import Main from './Main';
 
 function App() {
   return (
     <React.Fragment>
-      <section class="navbar">
-        <div class="navbar">
-          <h1 class="navbar">RecipeBooks</h1>
+      <section className="navbar">
+        <div className="navbar">
+          <h1 className="navbar">RecipeBooks</h1>
         </div>
       </section>
 
-      <section class="main">
+      <section className="main">
+        <Main />
       </section>
 
-      <footer class="footer">
+      <footer className="footer">
         <p>Developed by Aynun Nissa</p>
       </footer>
     </React.Fragment>
