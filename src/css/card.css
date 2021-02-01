@@ -1,0 +1,73 @@
+.card {
+  width: 250px;
+  height: 205px;
+  background-color: var(--softBlackColor);
+  border-radius: 10px;
+  margin: 0px 10px 10px 0px;
+  background-image: url("../images/resep.png");
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.resepCaption {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.resepCaption p,
+.favorit {
+  font-family: var(--roboto);
+  font-weight: 700;
+}
+
+.resepCaption p {
+  font-size: 18px;
+  color: var(--greenColor);
+}
+
+.buttonCard {
+  position: relative;
+  width: 71px;
+  height: 37px;
+  z-index: 2;
+  background-color: transparent;
+}
+
+.favorit,
+button.heart {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  color: black;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+}
+
+.favorit {
+  background-color: var(--greenColor);
+  opacity: 1;
+  transition-duration: 1s;
+}
+
+button.heart i {
+  pointer-events: none;
+}
+
+button.heart {
+  background-color: var(--red);
+  color: white;
+  font-size: 20px;
+  opacity: 0;
+  transition-duration: 1s;
+}
+
+.full {
+  display: none;
+}

@@ -1,7 +1,7 @@
-import './assets.css';
-import './App.css';
+import './css/assets.css';
+import './css/App.css';
 import React from 'react';
-import Main from './Main';
+import Main from './components/Main';
 
 function App() {
   return (
