@@ -1,0 +1,11 @@
+:root {
+  --softBlackColor: #3a3c42;
+  --strongBlackColor: #000000;
+  --greenColor: #9ccd62;
+  --raleway: "Raleway", sans-serif;
+  --roboto: "Roboto", sans-serif;
+  --bannerCoverBG: rgba(0, 0, 0, 0.4);
+  --bannerFontColor: #f7f8e2;
+  --footerBGColor: #dfdeca;
+  --red: rgb(237, 73, 86);
+}
