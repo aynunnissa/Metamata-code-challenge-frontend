@@ -1,3 +1,14 @@
+## Link Website
+
+- [RecipeBooks](https://aynunnissa__.gitlab.io/metamata-challenge/)
+
+## Cara Instalasi/Run
+
+- Install terlebih dahulu [Node.js](https://nodejs.org/en/) yang juga sekaligus akan menginstall NPM
+- Clone repository, misal clone ke folder metamata-challenge
+- Masuk ke folder metamata-challenge, jalankan perintah **npm install react-scripts --save**
+- Untuk run, jalankan perintah **npm start**
+
 # Metamata-code-challenge-frontend
 
 Membuat Website resep makanan;
@@ -26,13 +37,3 @@ Membuat Website resep makanan;
 - WhatsApp ke [Qorthony](https://wa.me/08872402827) jika sudah selesai atau ada yang ingin ditanyakan
 - Batas Pengumpulan sebelu waktu interview
 
-## Link Website
-
-- [RecipeBooks](https://aynunnissa__.gitlab.io/metamata-challenge/)
-
-## Cara Instalasi/Run
-
-- Install terlebih dahulu [Node.js](https://nodejs.org/en/) yang juga sekaligus akan menginstall NPM
-- Clone repository, misal clone ke folder metamata-challenge
-- Masuk ke folder metamata-challenge, jalankan perintah **npm install react-scripts --save**
-- Untuk run, jalankan perintah **npm start**
